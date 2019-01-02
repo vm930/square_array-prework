@@ -1,4 +1,5 @@
 def square_array(array)
   # your code here
-  array.each_index {|num| num*num, ""} 
+  array.each do |num|
+    total = num*num
 end
